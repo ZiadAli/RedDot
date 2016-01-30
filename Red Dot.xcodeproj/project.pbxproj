@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99B0CB061C5CABCE0095518E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B0CB051C5CABCE0095518E /* AppDelegate.swift */; };
+		99B0CB081C5CABCE0095518E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B0CB071C5CABCE0095518E /* ViewController.swift */; };
+		99B0CB0B1C5CABCE0095518E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99B0CB091C5CABCE0095518E /* Main.storyboard */; };
+		99B0CB0D1C5CABCE0095518E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99B0CB0C1C5CABCE0095518E /* Assets.xcassets */; };
+		99B0CB101C5CABCE0095518E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99B0CB0E1C5CABCE0095518E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		99B0CB021C5CABCE0095518E /* Red Dot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Red Dot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99B0CB051C5CABCE0095518E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99B0CB071C5CABCE0095518E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		99B0CB0A1C5CABCE0095518E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99B0CB0C1C5CABCE0095518E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99B0CB0F1C5CABCE0095518E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99B0CB111C5CABCE0095518E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99B0CAFF1C5CABCE0095518E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99B0CAF91C5CABCE0095518E = {
+			isa = PBXGroup;
+			children = (
+				99B0CB041C5CABCE0095518E /* Red Dot */,
+				99B0CB031C5CABCE0095518E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99B0CB031C5CABCE0095518E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99B0CB021C5CABCE0095518E /* Red Dot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99B0CB041C5CABCE0095518E /* Red Dot */ = {
+			isa = PBXGroup;
+			children = (
+				99B0CB051C5CABCE0095518E /* AppDelegate.swift */,
+				99B0CB071C5CABCE0095518E /* ViewController.swift */,
+				99B0CB091C5CABCE0095518E /* Main.storyboard */,
+				99B0CB0C1C5CABCE0095518E /* Assets.xcassets */,
+				99B0CB0E1C5CABCE0095518E /* LaunchScreen.storyboard */,
+				99B0CB111C5CABCE0095518E /* Info.plist */,
+			);
+			path = "Red Dot";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99B0CB011C5CABCE0095518E /* Red Dot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99B0CB141C5CABCE0095518E /* Build configuration list for PBXNativeTarget "Red Dot" */;
+			buildPhases = (
+				99B0CAFE1C5CABCE0095518E /* Sources */,
+				99B0CAFF1C5CABCE0095518E /* Frameworks */,
+				99B0CB001C5CABCE0095518E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Red Dot";
+			productName = "Red Dot";
+			productReference = 99B0CB021C5CABCE0095518E /* Red Dot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99B0CAFA1C5CABCE0095518E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = ZiadCorp;
+				TargetAttributes = {
+					99B0CB011C5CABCE0095518E = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 6F75VTXEGM;
+					};
+				};
+			};
+			buildConfigurationList = 99B0CAFD1C5CABCE0095518E /* Build configuration list for PBXProject "Red Dot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99B0CAF91C5CABCE0095518E;
+			productRefGroup = 99B0CB031C5CABCE0095518E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99B0CB011C5CABCE0095518E /* Red Dot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99B0CB001C5CABCE0095518E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99B0CB101C5CABCE0095518E /* LaunchScreen.storyboard in Resources */,
+				99B0CB0D1C5CABCE0095518E /* Assets.xcassets in Resources */,
+				99B0CB0B1C5CABCE0095518E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99B0CAFE1C5CABCE0095518E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99B0CB081C5CABCE0095518E /* ViewController.swift in Sources */,
+				99B0CB061C5CABCE0095518E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		99B0CB091C5CABCE0095518E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99B0CB0A1C5CABCE0095518E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99B0CB0E1C5CABCE0095518E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99B0CB0F1C5CABCE0095518E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99B0CB121C5CABCE0095518E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99B0CB131C5CABCE0095518E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99B0CB151C5CABCE0095518E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Red Dot/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZiadCorp.Red-Dot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		99B0CB161C5CABCE0095518E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Red Dot/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZiadCorp.Red-Dot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99B0CAFD1C5CABCE0095518E /* Build configuration list for PBXProject "Red Dot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99B0CB121C5CABCE0095518E /* Debug */,
+				99B0CB131C5CABCE0095518E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99B0CB141C5CABCE0095518E /* Build configuration list for PBXNativeTarget "Red Dot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99B0CB151C5CABCE0095518E /* Debug */,
+				99B0CB161C5CABCE0095518E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99B0CAFA1C5CABCE0095518E /* Project object */;
+}
