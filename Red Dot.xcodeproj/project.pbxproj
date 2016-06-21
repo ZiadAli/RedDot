@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9941DEBE1D14B1BD004BF786 /* LoadingScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9941DEBD1D14B1BD004BF786 /* LoadingScreenController.swift */; };
+		9941DEC01D14FB76004BF786 /* LayoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9941DEBF1D14FB76004BF786 /* LayoutController.swift */; };
 		99B0CB061C5CABCE0095518E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B0CB051C5CABCE0095518E /* AppDelegate.swift */; };
 		99B0CB081C5CABCE0095518E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B0CB071C5CABCE0095518E /* ViewController.swift */; };
 		99B0CB0B1C5CABCE0095518E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99B0CB091C5CABCE0095518E /* Main.storyboard */; };
 		99B0CB0D1C5CABCE0095518E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99B0CB0C1C5CABCE0095518E /* Assets.xcassets */; };
 		99B0CB101C5CABCE0095518E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99B0CB0E1C5CABCE0095518E /* LaunchScreen.storyboard */; };
+		99B0CB181C5CADB10095518E /* red dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 99B0CB171C5CADB10095518E /* red dot.png */; };
+		99E1D88D1D18F4E200612117 /* TitleScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E1D88C1D18F4E200612117 /* TitleScreenController.swift */; };
+		99E1D88F1D18FCBD00612117 /* green dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E1D88E1D18FCBD00612117 /* green dot.png */; };
+		99F1A7CC1C5D8A4C0065189B /* graygradient.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99F1A7CB1C5D8A4C0065189B /* graygradient.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9941DEBD1D14B1BD004BF786 /* LoadingScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingScreenController.swift; sourceTree = "<group>"; };
+		9941DEBF1D14FB76004BF786 /* LayoutController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutController.swift; sourceTree = "<group>"; };
 		99B0CB021C5CABCE0095518E /* Red Dot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Red Dot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99B0CB051C5CABCE0095518E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99B0CB071C5CABCE0095518E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,10 @@
 		99B0CB0C1C5CABCE0095518E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99B0CB0F1C5CABCE0095518E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99B0CB111C5CABCE0095518E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99B0CB171C5CADB10095518E /* red dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red dot.png"; sourceTree = "<group>"; };
+		99E1D88C1D18F4E200612117 /* TitleScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleScreenController.swift; sourceTree = "<group>"; };
+		99E1D88E1D18FCBD00612117 /* green dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green dot.png"; sourceTree = "<group>"; };
+		99F1A7CB1C5D8A4C0065189B /* graygradient.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = graygradient.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +69,15 @@
 				99B0CB051C5CABCE0095518E /* AppDelegate.swift */,
 				99B0CB071C5CABCE0095518E /* ViewController.swift */,
 				99B0CB091C5CABCE0095518E /* Main.storyboard */,
+				99E1D88C1D18F4E200612117 /* TitleScreenController.swift */,
+				9941DEBF1D14FB76004BF786 /* LayoutController.swift */,
+				9941DEBD1D14B1BD004BF786 /* LoadingScreenController.swift */,
 				99B0CB0C1C5CABCE0095518E /* Assets.xcassets */,
 				99B0CB0E1C5CABCE0095518E /* LaunchScreen.storyboard */,
 				99B0CB111C5CABCE0095518E /* Info.plist */,
+				99E1D88E1D18FCBD00612117 /* green dot.png */,
+				99B0CB171C5CADB10095518E /* red dot.png */,
+				99F1A7CB1C5D8A4C0065189B /* graygradient.jpg */,
 			);
 			path = "Red Dot";
 			sourceTree = "<group>";
@@ -122,9 +140,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99B0CB181C5CADB10095518E /* red dot.png in Resources */,
 				99B0CB101C5CABCE0095518E /* LaunchScreen.storyboard in Resources */,
+				99E1D88F1D18FCBD00612117 /* green dot.png in Resources */,
 				99B0CB0D1C5CABCE0095518E /* Assets.xcassets in Resources */,
 				99B0CB0B1C5CABCE0095518E /* Main.storyboard in Resources */,
+				99F1A7CC1C5D8A4C0065189B /* graygradient.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +157,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				99B0CB081C5CABCE0095518E /* ViewController.swift in Sources */,
+				9941DEBE1D14B1BD004BF786 /* LoadingScreenController.swift in Sources */,
 				99B0CB061C5CABCE0095518E /* AppDelegate.swift in Sources */,
+				9941DEC01D14FB76004BF786 /* LayoutController.swift in Sources */,
+				99E1D88D1D18F4E200612117 /* TitleScreenController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +272,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Red Dot/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ZiadCorp.Red-Dot";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -259,6 +284,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Red Dot/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ZiadCorp.Red-Dot";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -284,6 +310,7 @@
 				99B0CB161C5CABCE0095518E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
