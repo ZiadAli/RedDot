@@ -42,16 +42,14 @@ class LayoutController: UIViewController
         }
         
         print("Button array size: \(buttonArray.count)")
-        for var i in 0..<buttonArray.count
+        for i in 0..<buttonArray.count
         {
             newView.addSubview(buttonArray[i])
             let currentButton = buttonArray[i]
             currentButton.removeConstraints(currentButton.constraints)
             currentButton.removeConstraints(currentButton.constraints)
             currentButton.translatesAutoresizingMaskIntoConstraints = false
-            
-            let multiplier = CGFloat((i+1) / 4)
-            
+                        
             let widthConstraint2 = NSLayoutConstraint(item: currentButton, attribute: NSLayoutAttribute.Width, relatedBy: NSLayoutRelation.Equal, toItem: newView, attribute: NSLayoutAttribute.Width, multiplier: 0.213333, constant: 0)
             let heightConstraint2 = NSLayoutConstraint(item: currentButton, attribute: NSLayoutAttribute.Height, relatedBy: NSLayoutRelation.Equal, toItem: newView, attribute: NSLayoutAttribute.Width, multiplier: 0.213333, constant: 0)
             let xConstraint2 = NSLayoutConstraint(item: currentButton, attribute: NSLayoutAttribute.CenterX, relatedBy: NSLayoutRelation.Equal, toItem: newView, attribute: NSLayoutAttribute.CenterX, multiplier: CGFloat(Float(i+3)/3.0), constant: 0)

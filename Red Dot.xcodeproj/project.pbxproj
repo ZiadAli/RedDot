@@ -18,6 +18,10 @@
 		99E1D88D1D18F4E200612117 /* TitleScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E1D88C1D18F4E200612117 /* TitleScreenController.swift */; };
 		99E1D88F1D18FCBD00612117 /* green dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E1D88E1D18FCBD00612117 /* green dot.png */; };
 		99F1A7CC1C5D8A4C0065189B /* graygradient.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99F1A7CB1C5D8A4C0065189B /* graygradient.jpg */; };
+		99FFEDD91D2B2372007472A9 /* blopSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 99FFEDD81D2B2372007472A9 /* blopSound.mp3 */; };
+		99FFEDDB1D2B23BF007472A9 /* slapSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 99FFEDDA1D2B23BF007472A9 /* slapSound.mp3 */; };
+		99FFEDDD1D2B3540007472A9 /* blopSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 99FFEDDC1D2B3540007472A9 /* blopSound.wav */; };
+		99FFEDDF1D2B3982007472A9 /* punchSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 99FFEDDE1D2B3982007472A9 /* punchSound.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +38,10 @@
 		99E1D88C1D18F4E200612117 /* TitleScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleScreenController.swift; sourceTree = "<group>"; };
 		99E1D88E1D18FCBD00612117 /* green dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green dot.png"; sourceTree = "<group>"; };
 		99F1A7CB1C5D8A4C0065189B /* graygradient.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = graygradient.jpg; sourceTree = "<group>"; };
+		99FFEDD81D2B2372007472A9 /* blopSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = blopSound.mp3; path = ../../../../Downloads/blopSound.mp3; sourceTree = "<group>"; };
+		99FFEDDA1D2B23BF007472A9 /* slapSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = slapSound.mp3; sourceTree = "<group>"; };
+		99FFEDDC1D2B3540007472A9 /* blopSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = blopSound.wav; sourceTree = "<group>"; };
+		99FFEDDE1D2B3982007472A9 /* punchSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = punchSound.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,10 @@
 				9941DEBD1D14B1BD004BF786 /* LoadingScreenController.swift */,
 				99B0CB0C1C5CABCE0095518E /* Assets.xcassets */,
 				99B0CB0E1C5CABCE0095518E /* LaunchScreen.storyboard */,
+				99FFEDDA1D2B23BF007472A9 /* slapSound.mp3 */,
+				99FFEDD81D2B2372007472A9 /* blopSound.mp3 */,
+				99FFEDDC1D2B3540007472A9 /* blopSound.wav */,
+				99FFEDDE1D2B3982007472A9 /* punchSound.wav */,
 				99B0CB111C5CABCE0095518E /* Info.plist */,
 				99E1D88E1D18FCBD00612117 /* green dot.png */,
 				99B0CB171C5CADB10095518E /* red dot.png */,
@@ -140,11 +152,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99FFEDDB1D2B23BF007472A9 /* slapSound.mp3 in Resources */,
+				99FFEDDD1D2B3540007472A9 /* blopSound.wav in Resources */,
 				99B0CB181C5CADB10095518E /* red dot.png in Resources */,
+				99FFEDDF1D2B3982007472A9 /* punchSound.wav in Resources */,
 				99B0CB101C5CABCE0095518E /* LaunchScreen.storyboard in Resources */,
 				99E1D88F1D18FCBD00612117 /* green dot.png in Resources */,
 				99B0CB0D1C5CABCE0095518E /* Assets.xcassets in Resources */,
 				99B0CB0B1C5CABCE0095518E /* Main.storyboard in Resources */,
+				99FFEDD91D2B2372007472A9 /* blopSound.mp3 in Resources */,
 				99F1A7CC1C5D8A4C0065189B /* graygradient.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

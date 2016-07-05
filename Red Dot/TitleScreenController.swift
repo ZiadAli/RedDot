@@ -34,4 +34,35 @@ class TitleScreenController: UIViewController
         }
     }
     
+    //Game Modes (Title Screen)
+    @IBAction func timeTrialPressed(sender: AnyObject)
+    {
+        gameMode = "Time Trial"
+    }
+    
+    @IBAction func endurancePressed(sender: AnyObject)
+    {
+        gameMode = "Endurance"
+    }
+    
+    @IBAction func challengePressed(sender: AnyObject)
+    {
+        gameMode = "Challenge"
+    }
+    
+    //Game Difficulties (Difficulty Screen)
+    @IBAction func easyPressed(sender: AnyObject)
+    {
+        gameDifficulty = 1
+    }
+    
+    @IBAction func mediumPressed(sender: AnyObject)
+    {
+        gameDifficulty = 2
+    }
+    
+    @IBAction func hardPressed(sender: AnyObject)
+    {
+        gameDifficulty = 3
+    }
 }

@@ -7,17 +7,30 @@
 //
 
 import UIKit
+import iAd
 
-class LoadingScreenController: UIViewController
+class LoadingScreenController: UIViewController, ADBannerViewDelegate
 {
+    
     @IBOutlet var segueButton: UIButton!
     @IBOutlet var countdownLabel: UILabel!
+    var bannerView: ADBannerView!
     
     override func viewDidLoad()
     {
         super.viewDidLoad()
+        
+        bannerView = ADBannerView(adType: .Banner)
+        bannerView.translatesAutoresizingMaskIntoConstraints = false
+        bannerView.delegate = self
+        view.addSubview(bannerView)
+        
         print("Countdown loaded")
         segueButton.hidden = true
+        //labelSequence()
+    }
+    
+    override func viewDidAppear(animated: Bool) {
         labelSequence()
     }
     
